@@ -1,4 +1,31 @@
-.App {
+.PushButtom{
+
+  color: #a965da;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  text-align: center;
+  min-height: 20vh;
+}
+
+.SendPOST{
+  color: #a965da;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  text-align: center;
+  height: 60px;
+  width: 100vw;
+
+  background-color: #282c34;
+  min-height: 30vh;
+}
+
+.Origin {
   text-align: center;
 }
 
@@ -13,15 +40,30 @@
   }
 }
 
+@media (prefers-reduced-motion: no-preference) {
+  #Btn{
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 50vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.yuanshen{
+  color: #89d315;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
 }
 
 .App-link {
