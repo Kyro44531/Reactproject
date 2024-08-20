@@ -1,0 +1,99 @@
+.FirstFrame{
+    background: -webkit-linear-gradient(top, #f8f8f8, #a99eff);
+    min-height: 75vh;
+}
+
+.FirstLabel{
+    margin-top: 12.5vh;
+    height: 48px;
+    line-height: 48px;
+    margin-right: 5vw;
+    font-size: 48px;
+    text-decoration-color: #89d315;
+    background: -webkit-linear-gradient(top, #a800fc, #ffc8c8); /*设置线性渐变*/
+    /*为了支持更多的浏览器*/
+    -webkit-background-clip: text; /*背景被裁剪到文字*/
+    -webkit-text-fill-color: transparent; /*设置文字的填充颜色*/
+    position: absolute;
+    right:60vw;
+}
+
+.FirstInput{
+    margin-top: 12.5vh;
+    flex-direction: row;
+    height: 56px;
+    line-height: 56px;
+    width: 40vw;
+    font-size: 44px;
+    position: absolute;
+    left:40vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 10px;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 15px;
+
+
+    text-shadow: 3px 2px 1px #9daef5;
+    cursor: pointer;
+    border: none;
+    -webkit-transition-duration: 0.4s;
+
+}
+
+.FirstCouple {
+    text-align: center;
+    min-height: 25vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#FirstButton{
+    display: inline-block;
+    border-radius: 4px;
+    background: -webkit-linear-gradient(left, #e7e3ea, #c465cb);
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 44px;
+    width: 30vw;
+    height: 72px;
+    line-height: 72px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+#FirstButton span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+#FirstButton span:after {
+    content: '\00bb';  /* CSS Entities. 如果用的是 HTML Entities, 请改成 &#8594;*/
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+#FirstButton:hover span {
+    padding-right: 25px;
+}
+#FirstButton:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+#pswl{
+    margin-top: 6vh;
+}
+
+#psw{
+    margin-top: 6vh;
+}

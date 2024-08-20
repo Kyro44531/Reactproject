@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
 import axios from "axios";
+import {useState} from "react";
 
 function MyComponent() {
-    const [userId, setUserId] = useState("1"); // 示例userid
-    const [passWrd, setPassWrd] = useState("zmjxx2003121"); // 示例userid
+    const [userId, setUserId] = useState("1"); // 绀轰緥userid
+    const [passWrd, setPassWrd] = useState("zmjxx2003121"); // 绀轰緥userid
     const [text,setText] = useState("Nothing");
 
     const sendPostRequest = async () => {
@@ -14,7 +14,7 @@ function MyComponent() {
                     'Content-Type':'application/json'
                 },
                 body:JSON.stringify({
-                        userid: userId, // 发送userid
+                        userid: userId, // 鍙戦�乽serid
                         passwrd:passWrd
                 })
             });
@@ -31,7 +31,7 @@ function MyComponent() {
     return (
         <div>
             <p >{text}</p>
-            <button onClick={sendPostRequest} className="Btn">发送POST请求</button>
+            <button onClick={sendPostRequest} className="Btn">鍙戦�丳OST璇锋眰</button>
         </div>
     );
 }
