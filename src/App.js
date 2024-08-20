@@ -4,6 +4,7 @@ import MyComponent from "./MyComponent";
 import {Route, Router, Routes, Link, BrowserRouter} from 'react-router-dom';
 import FirstFrame from "./FirstFrame";
 import Signining from "./Signining";
+import StartTest from "./StartTest";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
               <Route path='/FirstFrame' element={<FirstFrame/>} />
               <Route path='/MyComponent' element={<FirstFrame/>} />
               <Route path='/Signining' element={<Signining/>} />
+              <Route path='/StartTest' element={<StartTest/>} />
           </Routes>
       </BrowserRouter>
 

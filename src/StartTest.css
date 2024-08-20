@@ -1,0 +1,40 @@
+.StartTest{
+    background: -webkit-linear-gradient(top, #f8f8f8, #9eaeff);
+    min-height: 75vh;
+}
+
+.StartDiv1{
+    text-align: center;
+    min-height: 40vh;
+    padding-top: 5vh;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#StartLabel{
+    text-align: center;
+    height: 128px;
+    line-height: 128px;
+    font-size: 36px;
+}
+
+.StartButton{
+    display: inline-block;
+    border-radius: 4px;
+    background: -webkit-linear-gradient(left, #e7e3ea, #c465cb);
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 36px;
+    width: 45vw;
+    height: 64px;
+    line-height: 64px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+#StartleftButton{
+    background: -webkit-linear-gradient(left ,#73cb65,#e7e3ea);
+}

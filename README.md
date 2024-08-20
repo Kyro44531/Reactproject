@@ -20,6 +20,10 @@
 
 ### 未解之谜:
 Cannot read properties of null (reading 'useState')
+（已解决，TMD不知道哪里来的@Type/React和React包重复了
+
+### Hook只能用在function里面
+所以class的意义
 
 ## 页面逻辑
 ### MyComponent.js Just测试一下
